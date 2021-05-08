@@ -1,5 +1,5 @@
 # Quiz Yu-Yu-Hakusho
-<img src="img/tela-cadastro-produtos.png">
+<img src="img/site.png">
 
 ## Quiz de perguntas Yu-Yu-Hakusho usando as tecnologias:
 * Html
@@ -7,7 +7,7 @@
 * Javascript
 
 ## Link do Site
-[Quiz-Yu-Yu-Hakusho](https://Yu-Yu-Hakusho.vercel.app/)
+[Quiz-Yu-Yu-Hakusho](https://quiz-yu-yu-hakusho.vercel.app/)
 
 
 ## Informações do sistema criado 
