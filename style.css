@@ -1,0 +1,173 @@
+/*variaveis */
+
+:root {
+  --color-white-padrao: rgb(7, 1, 1);
+  --fonte-weigth:900;
+}
+
+/*reset formatacoes*/
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* adiciona a imagem na pagina */
+
+body {
+  height: 100vh;
+  background: url('./img/yu-yu-hakusho_f.jpg');
+  background-size: cover;
+  background-position-y: -60px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+  background: grey;
+  opacity: .9;
+  z-index: 9999;
+  border-radius: 1.25em;
+}
+
+.m-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.al-text {
+  text-align: center;
+}
+
+.al-text-left {
+  text-align: left;
+  padding-left: 2px;
+}
+
+/*****
+    titulos 
+*****/
+
+h2 {
+  font-size: 1.9em;
+  font-weight: 900;
+  color: var(--color-white-padrao);
+}
+
+.m-bottom {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: var(--fonte-weigth);
+  color: var(--color-white-padrao);
+}
+
+/***** 
+  Sessao Perguntas
+*****/
+
+.list-perguntas {
+  list-style: none;
+}
+
+ul {
+  border: 2px solid white;
+}
+
+ul li {
+  padding: 10px 0;
+  margin-left: 10px;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+ul li {
+  background-color: #f4f4f4;
+  margin: 4px;
+}
+
+ul li:hover {
+  background-color: black;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+.esp-radio {
+  margin: 0 5px;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* estiliza o radio button */
+
+/*input[type="radio"] {
+  display: none;
+}*/
+
+/*
+    botoes do quiz
+*/
+
+.btn {
+  width: 20px;
+  background-color: red;
+  color: black;
+}
+
+.btn-submit {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  font-weight: var(--fonte-weigth);
+  width: 100%;
+  height: 70px;
+  font-size: 20px;
+  line-height: 20px;
+  color: green;
+  background: black;
+}
+
+.btn-submit:hover {
+  color: black;
+  background: green;
+  cursor: pointer;
+}
+
+.botoes {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-reload {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  width: 100%;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  color: green;
+  cursor: pointer;
+  background: black;
+}
