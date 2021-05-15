@@ -1,6 +1,5 @@
 const submitBtn = document.getElementById("enviar");
 const quiz = document.getElementById("quiz");
-// const todasRespostas = document.querySelectorAll(".resposta");
 
 let atualQuiz = 0;
 let score = 0;
@@ -68,7 +67,6 @@ submitBtn.addEventListener("click", () => {
         <h2 class="m-bottom">Total de questões corretas ${score}.</h2>
         <button class = "btn-reload" onclick="location.reload()">Recomeçar</button>
       `;
-      // <button class = "btn-reload" onclick="location.reload()">Reload</button>
     }
   }
 });
