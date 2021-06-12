@@ -6,7 +6,7 @@ let score = 0;
 
 // pega pergunta selecionada
 const getSelected = () => {
-const todasRespostas = document.querySelectorAll(".resposta");
+  const todasRespostas = document.querySelectorAll(".resposta");
   let resposta = undefined;
   todasRespostas.forEach((item) => {
     if (item.checked) {
@@ -19,7 +19,7 @@ const todasRespostas = document.querySelectorAll(".resposta");
 
 // deseleciona perguntas
 const deselectAnswers = () => {
-const todasRespostas = document.querySelectorAll(".resposta");
+  const todasRespostas = document.querySelectorAll(".resposta");
   todasRespostas.forEach((item) => {
     item.checked = false;
   });
@@ -40,10 +40,11 @@ const perguntas = () => {
   // lista respostas
   atualQuizData.options.forEach((item, index) => {
     const value = index + 1;
-    listaRespostas += `<li class="resposta">
-                        <input type="radio" id="${value}" name="resposta" 
-                        value="${value}" class="esp-radio resposta">${item[value]}
-                      </li>`;
+    listaRespostas += 
+    `<li>
+      <input type="radio" id="${value}" name="resposta" value="${value}" class="esp-radio resposta">
+      <label for=${value}>${item[value]}</label>
+    </li>`;
   });
   opcoes.innerHTML = listaRespostas;
 };

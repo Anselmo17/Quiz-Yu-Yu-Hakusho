@@ -171,3 +171,10 @@ input[type="radio"] {
   cursor: pointer;
   background: black;
 }
+
+
+input[type="radio"]{
+background: black;
+width: 25px;
+height: 30px;
+}
