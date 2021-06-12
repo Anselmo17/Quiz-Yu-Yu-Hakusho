@@ -2,7 +2,7 @@
 
 :root {
   --color-white-padrao: rgb(7, 1, 1);
-  --fonte-weigth:900;
+  --fonte-weigth: 900;
 }
 
 /*reset formatacoes*/
@@ -172,9 +172,8 @@ input[type="radio"] {
   background: black;
 }
 
-
-input[type="radio"]{
-background: black;
-width: 25px;
-height: 30px;
+input[type="radio"] {
+  background: black;
+  width: 25px;
+  height: 30px;
 }
