@@ -31,7 +31,7 @@ body {
 .container {
   width: 600px;
   padding: 15px;
-  margin: 0 10px;
+  margin: 0 auto;
   background: grey;
   opacity: .9;
   z-index: 9999;
@@ -176,4 +176,13 @@ input[type="radio"] {
   background: black;
   width: 25px;
   height: 30px;
+}
+
+
+
+/******** Media query ******/
+@media only screen and (max-width: 620px)  {
+  .container{
+    margin: 0 10px;
+  }
 }
