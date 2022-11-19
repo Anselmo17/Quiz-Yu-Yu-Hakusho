@@ -31,7 +31,7 @@ body {
 .container {
   width: 600px;
   padding: 15px;
-  margin: 0 auto;
+  margin: 0 10px;
   background: grey;
   opacity: .9;
   z-index: 9999;
